@@ -120,7 +120,7 @@ def build_model(nn_hdim, num_passes=20000, print_loss=False):
     
     return model
 
-# Build a model with a 3-dimensional hidden layer
+# Build a model with a 10-dimensional hidden layer
 model = build_model(10, print_loss=True)
 
 # Plot the decision boundary
